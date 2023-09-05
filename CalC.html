@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="calc.css">
+
+<div class="calc">
+	<div id="screen">
+		<input id="inputBar" type="number" value="0"></input>
+		
+	</div>
+	<div id="tscreen"></div>
+	<div id="buttons">
+
+		<button type="button" onclick="addInput('1')">1</button>
+		<button type="button" onclick="addInput('2')">2</button>
+		<button type="button" onclick="addInput('3')">3</button>
+		<button type="button" onclick="addInput('+')">+</button>
+		<button type="button" onclick="addInput('4')">4</button>
+		<button type="button" onclick="addInput('5')">5</button>
+		<button type="button" onclick="addInput('6')">6</button>
+		<button type="button" onclick="addInput('-')">-</button>
+		<button type="button" onclick="addInput('7')">7</button>
+		<button type="button" onclick="addInput('8')">8</button>
+		<button type="button" onclick="addInput('9')">9</button>
+		<button type="button" onclick="addInput('x')">*</button>
+		<button type="button" onclick="addInput('0')">0</button>
+		<button type="button" onclick="addInput('.')">.</button>
+		<button type="button" onclick="addInput('=')">=</button>
+		<button type="button" onclick="addInput('/')">/</button>
+	</div>
+
+</div>
+<div id="cls">
+	<button type="button" onclick="cls()" id="cl">CE</button>
+</div>
+
+<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
